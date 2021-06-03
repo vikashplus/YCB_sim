@@ -7,8 +7,8 @@
 ====================================================== -©vk©-->
 <mujocoinclude>
     <asset>
-        <mesh name="004_sugar_box" file="meshes/004_sugar_box.msh" scale="1 1 1"/>
-        <texture name="004_sugar_box" type="2d" file="textures/004_sugar_box.png"/>
+        <mesh name="004_sugar_box" file="../YCB_sim/meshes/004_sugar_box.msh" scale="1 1 1"/>
+        <texture name="004_sugar_box" type="2d" file="../YCB_sim/textures/004_sugar_box.png"/>
         <material name="004_sugar_box" texture="004_sugar_box"/>
     </asset>
 </mujocoinclude>

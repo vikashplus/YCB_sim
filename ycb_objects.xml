@@ -16,7 +16,7 @@
 
     <!-- YCB assets and defaults -->
     <include file="includes/defaults_ycb.xml"/>
-    <include file="includes/assets_002_master_chef_can.xml"/>
+    <include file="includes/assets_004_sugar_box.xml"/>
     <include file="includes/assets_003_cracker_box.xml"/>
 
     <worldbody>
@@ -27,7 +27,7 @@
 
         <!-- object -->
         <body pos="0.0 0.0 0.01">
-            <include file="includes/body_002_master_chef_can.xml"/>
+            <include file="includes/body_004_sugar_box.xml"/>
             <freejoint/>
         </body>
 

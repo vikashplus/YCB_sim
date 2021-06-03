@@ -7,8 +7,8 @@
 ====================================================== -©vk©-->
 <mujocoinclude>
     <asset>
-        <mesh name="003_cracker_box" file="meshes/003_cracker_box.msh" scale="1 1 1"/>
-        <texture name="003_cracker_box" type="2d" file="textures/003_cracker_box.png"/>
+        <mesh name="003_cracker_box" file="../YCB_sim/meshes/003_cracker_box.msh" scale="1 1 1"/>
+        <texture name="003_cracker_box" type="2d" file="../YCB_sim/textures/003_cracker_box.png"/>
         <material name="003_cracker_box" texture="003_cracker_box"/>
     </asset>
 </mujocoinclude>
