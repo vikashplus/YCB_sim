@@ -16,8 +16,16 @@
 
     <!-- YCB assets and defaults -->
     <include file="includes/defaults_ycb.xml"/>
+    <include file="includes/assets_035_power_drill.xml"/>
+    <include file="includes/assets_010_potted_meat_can.xml"/>
+    <include file="includes/assets_009_gelatin_box.xml"/>
+    <include file="includes/assets_008_pudding_box.xml"/>
+    <include file="includes/assets_007_tuna_fish_can.xml"/>
+    <include file="includes/assets_006_mustard_bottle.xml"/>
+    <include file="includes/assets_005_tomato_soup_can.xml"/>
     <include file="includes/assets_004_sugar_box.xml"/>
     <include file="includes/assets_003_cracker_box.xml"/>
+    <include file="includes/assets_002_master_chef_can.xml"/>
 
     <worldbody>
         <!-- Set scene -->
@@ -25,17 +33,56 @@
         <light directional="true" diffuse=".6 .6 .6" specular="0.2 0.2 0.2" pos="0 0 4" dir="0 0 -1"/>
         <geom name="ground" type="plane" size="2 2 1" pos="0 0 0" quat="1 0 0 0" material="matplane"/>
 
-        <!-- object -->
-        <body pos="0.0 0.0 0.01">
+        <body pos="1.2 0.0 0.01">
+            <include file="includes/body_035_power_drill.xml"/>
+            <freejoint/>
+        </body>
+
+        <body pos="1.0 0.0 0.01">
+            <include file="includes/body_010_potted_meat_can.xml"/>
+            <freejoint/>
+        </body>
+
+        <body pos="0.9 0.0 0.01">
+            <include file="includes/body_009_gelatin_box.xml"/>
+            <freejoint/>
+        </body>
+
+         <body pos="0.8 0.0 0.01">
+            <include file="includes/body_008_pudding_box.xml"/>
+            <freejoint/>
+        </body>
+
+        <body pos="0.7 0.0 0.01">
+            <include file="includes/body_007_tuna_fish_can.xml"/>
+            <freejoint/>
+        </body>
+
+        <body pos="0.6 0.0 0.01">
+            <include file="includes/body_006_mustard_bottle.xml"/>
+            <freejoint/>
+        </body>
+
+        <body pos="0.5 0.0 0.01">
+            <include file="includes/body_005_tomato_soup_can.xml"/>
+            <freejoint/>
+        </body>
+
+        <body pos="0.4 0.0 0.01">
             <include file="includes/body_004_sugar_box.xml"/>
             <freejoint/>
         </body>
 
-        <!-- object -->
-        <body pos="0.1 0.0 0.01">
+        <body pos="0.3 0.0 0.01">
             <include file="includes/body_003_cracker_box.xml"/>
             <freejoint/>
         </body>
+
+        <body pos="0.2 0.0 0.01">
+            <include file="includes/body_002_master_chef_can.xml"/>
+            <freejoint/>
+        </body>
+
     </worldbody>
 
 </mujoco>
