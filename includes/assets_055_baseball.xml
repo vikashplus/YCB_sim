@@ -1,0 +1,7 @@
+<mujocoinclude>
+    <asset>
+        <mesh name="055_baseball" file="YCB_models/055_baseball_google_16k/055_baseball/google_16k/textured.obj" scale="1 1 1"/>
+        <texture name="055_baseball" type="2d" file="YCB_models/055_baseball_google_16k/055_baseball/google_16k/texture_map.png"/>
+        <material name="055_baseball" texture="055_baseball"/>
+    </asset>
+</mujocoinclude>

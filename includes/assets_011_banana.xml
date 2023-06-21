@@ -1,0 +1,7 @@
+<mujocoinclude>
+    <asset>
+        <mesh name="011_banana" file="YCB_models/011_banana_google_16k/011_banana/google_16k/textured.obj" scale="1 1 1"/>
+        <texture name="011_banana" type="2d" file="YCB_models/011_banana_google_16k/011_banana/google_16k/texture_map.png"/>
+        <material name="011_banana" texture="011_banana"/>
+    </asset>
+</mujocoinclude>

@@ -26,6 +26,8 @@
     <include file="includes/assets_004_sugar_box.xml"/>
     <include file="includes/assets_003_cracker_box.xml"/>
     <include file="includes/assets_002_master_chef_can.xml"/>
+    <include file="includes/assets_011_banana.xml"/>
+    <include file="includes/assets_055_baseball.xml"/>
 
     <worldbody>
         <!-- Set scene -->
@@ -80,6 +82,16 @@
 
         <body pos="0.2 0.0 0.01">
             <include file="includes/body_002_master_chef_can.xml"/>
+            <freejoint/>
+        </body>
+
+        <body pos="0.1 0.0 0.01">
+            <include file="includes/body_011_banana.xml"/>
+            <freejoint/>
+        </body>
+
+         <body pos="0 0.0 0.01">
+            <include file="includes/body_055_baseball.xml"/>
             <freejoint/>
         </body>
 
