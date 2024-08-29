@@ -15,9 +15,8 @@
             <geom contype="1" conaffinity="1" group="3" rgba=".4 .5 .6 1"/>
         </default>
         <default class="ycb_viz">
-            <geom contype="0" conaffinity="0" type="mesh"/>
+            <geom contype="0" conaffinity="0" type="mesh" mass="0"/>
         </default>
     </default>
 
 </mujocoinclude>
-
