@@ -1,0 +1,4 @@
+<mujocoinclude>
+    <geom class="ycb_viz" mesh="055_baseball" pos="0.014 0.014 0.002" material="055_baseball"/>
+    <geom class="ycb_col" type="mesh" mesh="055_baseball" size=".1 .1" pos="0.014 0.014 0.002" mass="0.895"/>
+</mujocoinclude>
